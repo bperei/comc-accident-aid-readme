@@ -26,7 +26,7 @@ Track your collection, monitor changes in prices, and customize how search resul
 
 ## Database lifetime
 
-IndexedDB databases generally persist unless:
+The script uses IndexedDB database for storing data locally in the browser. IndexedDB databases generally persist unless:
 
 - Users manually clear their browser data/cookies
 - Browsers automatically delete them (very rare, theoretically possible when disk space is low)
