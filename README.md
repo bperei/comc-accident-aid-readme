@@ -1,10 +1,9 @@
 # COMC AccidentAid™
 
-![image](https://github.com/user-attachments/assets/5fb4b234-b6c7-4a31-b6fc-d908d709e2fc)
-
-
 A userscript that enhances the COMC experience with additional card management features thus allowing you to make educated, data driven accidents. I mean purchases.
 Track your collection, monitor changes in prices, and customize how search results are displayed.
+
+![image](https://github.com/user-attachments/assets/5fb4b234-b6c7-4a31-b6fc-d908d709e2fc)
 
 ## Installation
 
