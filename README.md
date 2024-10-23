@@ -21,6 +21,8 @@ Track your collection, monitor changes in prices, and customize how search resul
 - Prices are only updated for a card when it is included in a search result
 - It is not an automatic price scraper, it does not run in the background
 - Functionality may be affected by future COMC website changes
+- Price and other stored data is local to your browser. This means if you install the script in another browser you will start from scratch.
+  There is a way to export/import the value of the local storage if needed. Only very small amount of clicking and copy-pasting needed.
 
 ## Known Issues
 
@@ -46,6 +48,7 @@ Track your collection, monitor changes in prices, and customize how search resul
 - Hover over card + press 'w' = Add to wishlist
 - Use "Hide owned" checkbox to hide owned cards
 - Select (optional) sort method from "Page Sort By" dropdown
+
 
 ## Why am I seeing what I'm seeing?
 
