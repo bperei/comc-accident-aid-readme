@@ -24,6 +24,14 @@ Track your collection, monitor changes in prices, and customize how search resul
 - Price and other stored data is local to your browser. This means if you install the script in another browser you will start from scratch.
   There is a way to export/import the values of the local storage (indexeddb) if needed with a small amount of tinkering.
 
+## Database lifetime
+
+IndexedDB databases generally persist unless:
+
+- Users manually clear their browser data/cookies
+- Browsers automatically delete them (very rare, theoretically possible when disk space is low)
+- Safari deletes it after 7 days of inactivity (haven't tested it myself)
+
 ## Known Issues
 
 - When clicking the page grid view selector on the top right, the control row snaps to the right. I spent a considerable amount of time trying to fix it with no success. Since all other view styles are pretty much useless, I don't think I'll bother fixing it in the future.
